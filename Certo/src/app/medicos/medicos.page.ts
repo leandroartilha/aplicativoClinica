@@ -13,7 +13,7 @@ export class MedicosPage implements OnInit {
 
   listaMedicos: IMedico [] = [
     {
-      nome: 'Doutor Fulana da Silva',
+      nome: 'Doutora Fulana da Silva',
       especialidade: 'Médico Pediatra',
       // eslint-disable-next-line max-len
       foto: 'https://st2.depositphotos.com/3889193/8015/i/950/depositphotos_80150956-stock-photo-confident-female-doctor-at-office.jpg?forcejpeg=true',

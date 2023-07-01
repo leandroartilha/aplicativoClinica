@@ -15,9 +15,9 @@ export class HomePage {
   //homeForm : FormGroup;
   async basicShare(){
     await Share.share({
-      title: 'App',
-      text:'teste',
-      url:'www.consultasTeste',
+      title: 'App Clínica',
+      text:'bem vindos a clinica',
+      url:'www.clinica.com',
     });
 }
 
