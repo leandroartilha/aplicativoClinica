@@ -1,0 +1,32 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="dark">
+    <ion-title>
+      Cinica Dr. Ciclano Antunes
+    </ion-title>
+
+
+    <ion-button (click)="agendar()"  shape="round">Consultas</ion-button>
+
+
+    <ion-buttons slot="primary" (click)="sair()">
+      <ion-button
+        >Menu
+        <ion-icon slot="start" name="exit"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <img src="http://www.bssservicosmedicos.com.br/Arquitetura/Imagens/medicos-topo.jpg" alt="">
+  <h1>Doutores Especializados</h1>
+  <div>
+    <ion-button (click)="agendar()" expand="block" class="ion-padding" shape="round">
+      Agendar Consulta
+    </ion-button>
+
+    <ion-button (click)="basicShare()" expand="full"  class="ion-padding" shape="round">
+      Compartilhar
+    </ion-button>
+  </div>
+</ion-content>
